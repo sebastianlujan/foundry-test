@@ -64,3 +64,10 @@ $ forge --help
 $ anvil --help
 $ cast --help
 ```
+
+## Testing
+
+```shell
+forge build
+forge test -vvv  --match-path test/HelloWorld.t.sol
+```
